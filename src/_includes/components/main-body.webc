@@ -1,0 +1,15 @@
+<!-- Overloading standard HTML element  -->
+
+WebC *is* HTML.
+<events-list></events-list>
+<footer></footer>
+
+<!-- Mot Scoped to only this component. Applies to all components -->
+<style>
+  body {
+    background-color: lightslategray;
+  }
+  custom-element {
+    display: contents;
+  }
+</style>

@@ -1,0 +1,6 @@
+---
+layout: base.njk
+---
+
+<events-list></events-list>
+<footer></footer>

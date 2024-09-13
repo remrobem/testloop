@@ -1,0 +1,14 @@
+<!-- Overloading standard HTML element  -->
+
+<footer>
+  <p>&copy; 2023 My Eleventy Site</p>
+</footer>
+
+<style webc:scoped webc:keep>
+  footer {
+    margin-top: 20px;
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+    text-align: center;
+  }
+</style>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Eleventy Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Eleventy Site</h1>
+    </header>
+
+    <main>
+        <events-list class="w-_g9mlrk">---
+eleventyImport:
+  collections: ['events']
+---
+
+<style>.w-_g9mlrk .event-container{margin-bottom:20px;padding:10px;border-radius:5px;width:80%}.w-_g9mlrk .event-title{font-weight:bold;color:green}</style>
+
+<div>
+  <p>Events List</p>
+  <div>
+    <div style="background-color: orange; color: #000000" class="event-container">
+      <p class="event-title">Sample Event 2</p>
+      <p><p>This is a sample event description 2.
+abcd</p>
+</p>
+    </div>
+  </div>
+<div>
+    <div style="background-color: #F09292; color: #000000" class="event-container">
+      <p class="event-title">Hot Dogs and Bingo</p>
+      <p><h1>Be there</h1>
+<h3>Win a prize</h3>
+<p>Eat Hot dogs</p>
+<p>Learn how to spell BINGO</p>
+</p>
+    </div>
+  </div>
+<div>
+    <div style="background-color: #e6f2ff; color: #000066" class="event-container">
+      <p class="event-title">My First Event</p>
+      <p><p>This is the content of my first event. It will be displayed in the event list.</p>
+</p>
+    </div>
+  </div>
+</div>
+</events-list>
+<footer class="wct1qknuj"><!-- Overloading standard HTML element  --><footer>
+  <p>© 2023 My Eleventy Site</p>
+</footer>
+
+<style>.wct1qknuj footer{margin-top:20px;padding:10px;text-align:center}</style>
+</footer>
+
+    </main>
+
+  
+</body>
+</html>
