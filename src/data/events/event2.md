@@ -1,16 +1,21 @@
 ---
-title: 'Sample Event 2'
-id: '2'
+title: 'Hot Dogs and Bingo'
 date: 2024-07-01
-color: 'orange'
-category: 'def'
+day: 'Tuesday'
+locationName: 'Church of the Epiphany'
+locationAddress: '538 Henry St, Eden, NC 27288'
+locationCity: 'Eden'
+locationState: 'NC'
+locationZip: '27288'
+bodyColor: 'green'
 backgroundColor: 'yellow'
-background_color: 'yellow'
-font: 'Arial, sans-serif'
-fontSize: 16
-featuredImage: 'src/images/image1.jpg'
-eleventyImport:
-  collections: ['weeklies']
+bodyFont: 'Arial, sans-serif'
+title1Font: 'Arial, sans-serif'
+title2Font: 'Arial, sans-serif'
+title1Color: 'black'
+title2Color: 'black'
+image: 'src/images/image1.jpg'
+map: 'src/images/map.png'
 ---
 
 This is a sample event description 2.
