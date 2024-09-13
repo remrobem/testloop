@@ -1,8 +1,3 @@
----
-eleventyImport:
-  collections: ['events']
----
-
 <style webc:scoped webc:keep>
   .event-container {
     margin-bottom: 20px;
@@ -16,18 +11,16 @@ eleventyImport:
   }
 </style>
 
-<div>
-  <p>Events List</p>
-  <div webc:for="event of $data.collections.events">
-    <div
-      class="event-container"
-      :style="`
-      background-color: ${event.data.color || '#f0f0f0'};
-      color: ${event.data.textColor || '#000000'};
+<p>Events List</p>
+<div webc:for="event of $data.collections.events">
+  <div
+    class="event-container"
+    :style="`
+      background-color: ${event.data.backgroundColor || '#f0f0f0'};
+      color: ${event.data.bodyColor || '#000000'};
     `"
-    >
-      <p class="event-title" @text="event.data.title"></p>
-      <p @html="event.content"></p>
-    </div>
+  >
+    <p class="event-title" @text="event.data.title"></p>
+    <p @html="event.content"></p>
   </div>
 </div>
