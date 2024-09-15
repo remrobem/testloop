@@ -1,7 +1,7 @@
 <!-- Overloading standard HTML element  -->
 
 <footer>
-  <p>&copy; 2023 My Eleventy Site</p>
+  <p>&copy; {{ new Date().getFullYear() }} My Eleventy Site</p>
 </footer>
 
 <style webc:scoped webc:keep>

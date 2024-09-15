@@ -1,8 +1,9 @@
 {
   "name": "testloop",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
+    "tina": "npx tinacms dev -c \"@11ty/eleventy --serve\"",
     "dev": "npx @11ty/eleventy --serve",
     "build": "eleventy",
     "start": "eleventy --serve"
@@ -13,6 +14,10 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-webc": "^0.11.2"
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "tinacms": "^2.2.3"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.6.3"
   }
 }

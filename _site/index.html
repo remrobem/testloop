@@ -10,7 +10,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: lightblue;
+            background-color: slategray;
         }
     </style>
 </head>
@@ -35,7 +35,7 @@
 </div>
 <div>
   <div style="background-color: yellow; color: green" class="event-container">
-    <p class="event-title">Hot Dogs and Bingo</p>
+    <p class="event-title">Event 2</p>
     <p><p>This is a sample event description 2.
 abcd</p>
 </p>
@@ -50,14 +50,12 @@ abcd</p>
 </div>
 </events-list>
 <footer class="wct1qknuj"><!-- Overloading standard HTML element  --><footer>
-  <p>© 2023 My Eleventy Site</p>
+  <p>© {{ new Date().getFullYear() }} My Eleventy Site</p>
 </footer>
 
 <style>.wct1qknuj footer{margin-top:20px;padding:10px;text-align:center}</style>
 </footer>
 
     </main>
-
-  
 </body>
 </html>

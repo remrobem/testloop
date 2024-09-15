@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection('events', function (collectionApi) {
-    const events = collectionApi.getFilteredByGlob('src/data/events/*.md');
+    const events = collectionApi.getFilteredByGlob('src/content/events/*.md');
     console.log('Events collection:', events);
     return events;
   });
