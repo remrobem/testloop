@@ -1,0 +1,21 @@
+fragment EventParts on Event {
+  __typename
+  title
+  date
+  day
+  locationName
+  locationAddress
+  locationCity
+  locationState
+  locationZip
+  bodyColor
+  backgroundColor
+  bodyFont
+  title1Font
+  title2Font
+  title1Color
+  title2Color
+  image
+  map
+  body
+}
