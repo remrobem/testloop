@@ -1,5 +1,5 @@
 ---
-title: 'Hot Dogs and Bingo'
+title: 'Event 2'
 date: 2024-07-01
 day: 'Tuesday'
 locationName: 'Church of the Epiphany'
